@@ -11,5 +11,15 @@ namespace EDDemo.Estructuras_No_Lineales
         public int Dato;
         public NodoBinario Izq;
         public NodoBinario Der;
+
+        public NodoBinario(int dato)
+        {
+            this.Dato = Dato;
+            this.Izq = null;
+            this.Der = null;
+
+        }
+
     }
+    
 }
